@@ -1,0 +1,37 @@
+.idCard{
+    width: 350px;
+    height: 600px;
+    border: 1px solid #000;
+    padding: 14px;
+    margin: 14px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+
+}
+
+.studentImg{
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin: 8px 0;
+}
+
+.companyName{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    color: red;
+    margin-bottom: 12px;
+}
